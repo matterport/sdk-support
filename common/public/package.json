@@ -1,0 +1,10 @@
+{
+  "name": "@common/public",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "build-dev": "echo NOOP"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "sdk-examples",
+  "version": "0.0.1",
+  "description": "Matterport Developer Support SDK Examples",
+  "author": "developer@matterport.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pnpm --filter hello-world dev",
+    "test": "pnpm -r test",
+    "install": "pnpm matterport-assets common/public/assets"
+  },
+  "dependencies": {
+    "prettier": "^3.5.3",
+    "@matterport/webcomponent": "^0.1.43"
+  }
+}
